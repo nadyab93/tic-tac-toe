@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main" style="position: relative;">
+        <h1>Tic Tac Toe</h1>
+        <p id="print"></p>
+        <div class="ui">
+            <div class="row">
+                <input type="text" id="b1" class="cell" onclick="makeMove(1)" readonly>
+                <input type="text" id="b2" class="cell" onclick="makeMove(2)" readonly>
+                <input type="text" id="b3" class="cell" onclick="makeMove(3)" readonly>
+            </div>
+            <div class="row">
+                <input type="text" id="b4" class="cell" onclick="makeMove(4)" readonly>
+                <input type="text" id="b5" class="cell" onclick="makeMove(5)" readonly>
+                <input type="text" id="b6" class="cell" onclick="makeMove(6)" readonly>
+            </div>
+            <div class="row">
+                <input type="text" id="b7" class="cell" onclick="makeMove(7)" readonly>
+                <input type="text" id="b8" class="cell" onclick="makeMove(8)" readonly>
+                <input type="text" id="b9" class="cell" onclick="makeMove(9)" readonly>
+            </div>
+        </div>
+        <br><br>
+        <button id="but" onclick="resetGame()">RESET</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
